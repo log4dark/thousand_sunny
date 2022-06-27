@@ -1,5 +1,5 @@
 # Spring & Spring Boot
-Drop in Spring  
+Drop in Spring & Spring Boot  
 
 ## 스프링 프레임워크 란
 - 스프링  
