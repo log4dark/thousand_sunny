@@ -8,7 +8,13 @@ Drop in Spring & Spring Boot
 
 
 ## IoC/DI (예제)
-... 
+...
+추후 수정~~~  
+@Component vs. @Service
+- @Component 어노테이션은 스프링 빈(bean)으로 등록 하겠다는 어노테이션임.
+- 스프링 컨테이너(ApplicationContext)가 빈으로 등록
+- XxxController 클래스에서 XxxService 객체 사용을 위해서 @Autowired XxxService xxxService 설정 시, 스프링 컨테이너가 XxxController의 xxxService 멤버 변수에  빈(객체)를 주입(injection), 즉 의존성 주입(Dependency Injection, DI)함.
+
 
 ## AOP  
 ...  
